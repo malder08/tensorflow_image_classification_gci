@@ -2,6 +2,7 @@ package io.flutter.plugins;
 
 import io.flutter.plugin.common.PluginRegistry;
 import io.flutter.plugins.imagepicker.ImagePickerPlugin;
+import sq.flutter.tflite.TflitePlugin;
 
 /**
  * Generated file. Do not edit.
@@ -12,6 +13,7 @@ public final class GeneratedPluginRegistrant {
       return;
     }
     ImagePickerPlugin.registerWith(registry.registrarFor("io.flutter.plugins.imagepicker.ImagePickerPlugin"));
+    TflitePlugin.registerWith(registry.registrarFor("sq.flutter.tflite.TflitePlugin"));
   }
 
   private static boolean alreadyRegisteredWith(PluginRegistry registry) {

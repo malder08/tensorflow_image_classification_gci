@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'chooseImagePage.dart';
-import 'classificationPage.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,16 +8,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      // theme information (colors, font, brightness)
       theme: ThemeData(
-        primaryColor: Color(0xFF9B3E),
+        primaryColor: Color(0xFFFF9B3E),
         fontFamily: 'Oxygen',
+        brightness: Brightness.light
       ),
-      initialRoute: ChooseImage.id,
-      routes: {
-        ChooseImage.id: (context) => ChooseImage(),
-        Classification.id: (context) => Classification(),
-      },
-      home: ChooseImage()
+      debugShowCheckedModeBanner: false,
+      // home page
+      home: ChooseImagePage()
     );
   }
 }
