@@ -1,0 +1,4 @@
+#Sun Dec 08 06:06:57 MST 2019
+base.0=C\:\\Users\\maria\\OneDrive\\Documents\\Programming\\Flutter\\tensorflowapp\\tensorflow_image_classification_gci\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
